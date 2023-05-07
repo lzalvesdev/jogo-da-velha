@@ -1,15 +1,10 @@
 import "./App.css";
+import About from "./objects/About";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div>
-          <a href="#to-do" className="about">
-            Sobre
-          </a>
-        </div>
-      </header>
+      <About />
     </div>
   );
 }
