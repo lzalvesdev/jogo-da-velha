@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
+import Card from "./objects/Card";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Card />
+    </>
+  );
 }
 
 export default App;
